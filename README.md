@@ -1,3 +1,4 @@
+[![](https://badge.imagelayers.io/krishath/csgo:latest.svg)](https://imagelayers.io/?images=krishath/csgo:latest 'Get your own badge on imagelayers.io')
 # What is it?
 A complete Counter Strike: Global Offensive docker container.
 
@@ -12,6 +13,7 @@ Set the environmental variables:
 - `MAP_GROUP`
 - `MAP`
 - `GLST` (optional, set it if you want to create a non-LAN server)
+
 
       docker run  -e GAME_TYPE=0 {...} krishath/csgo
 
