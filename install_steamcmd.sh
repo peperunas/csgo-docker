@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 mkdir ~/steamcmd
 cd ~/steamcmd
 wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
