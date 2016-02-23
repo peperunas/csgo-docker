@@ -3,6 +3,8 @@ mkdir ~/steamcmd
 cd ~/steamcmd
 wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
+# allowing data permanence
+mkdir -p ../csgo/cfg
 # installing csgo dedicated server
 ~/steamcmd/steamcmd.sh +login anonymous +force_install_dir ../csgo +app_update 740 validate +quit
 # executing server
