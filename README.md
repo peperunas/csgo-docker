@@ -1,4 +1,7 @@
-# How to use it
+# What is it?
+A complete Counter Strike: Global Offensive docker container.
+
+## How to use it
 Pull the image from the Docker Hub:   
 
     docker pull krishath/csgo
@@ -10,4 +13,10 @@ Set the environmental variables:
 - `MAP`
 - `GLST` (optional, set it if you want to create a non-LAN server)
 
-      docker run krishath/csgo -e GAME_TYPE=0 {...}
+      docker run  -e GAME_TYPE=0 {...} krishath/csgo
+
+## Server configuration
+
+If you would like to further config the server, just mount the config folder locally:
+
+    docker run -v cfg_folder:/home/steam/csgo/cfg {...} krishath/csgo
