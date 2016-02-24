@@ -14,6 +14,7 @@ Set the environmental variables:
 - `MAP`
 - `GSLT` (optional, set it if you want to create a non-LAN server)
 
+And finally run:
 
     docker run  -e GAME_TYPE=0 {...} krishath/csgo
 
